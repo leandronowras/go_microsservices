@@ -3,6 +3,8 @@
 ## Introduction
 This project is a microservices architecture based project consisting of several services that provide different functionalities. Each service has its own Dockerfile, Go modules and application code. In addition, there are configuration files for the project and the Kubernetes deployment.
 
+---
+
 ## Microservices
 - Authentication Service:
   - Contains a microservice responsible for handling user authentication. It has a go.mod file for managing dependencies, a cmd/api folder for running the service, a data folder for storing data models and a Dockerfile for building a Docker image.
@@ -18,6 +20,8 @@ This project is a microservices architecture based project consisting of several
 
 - Mailer Service:
   - Responsible for handling email notifications for the application. It has a go.mod file for managing dependencies, a cmd/api folder for running the service, a templates folder for storing email templates, a mail-service.dockerfile for building a Docker image, and a mailerApp folder for storing application code.
+
+---
 
 ## Configuration Files
 - Makefile:
