@@ -2,6 +2,10 @@
 
 ## Introduction
 This project is a microservices architecture based project consisting of several services that provide different functionalities. Each service has its own Dockerfile, Go modules and application code. In addition, there are configuration files for the project and the Kubernetes deployment.
+## Diagram
+![Leandro's landscape - Diagram 1 (Latest)](https://user-images.githubusercontent.com/56269786/233810506-b48ad54a-768f-4a9f-b310-7a2545e5b5b5.png)
+
+The full C4 diagram can be accessed here: https://s.icepanel.io/Rh89uQWRKrWsrC/xlDY 
 
 ---
 
